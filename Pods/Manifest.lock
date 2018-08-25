@@ -42,6 +42,24 @@ DEPENDENCIES:
   - Reveal-SDK
   - UICountingLabel (~> 1.2)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AHKActionSheet
+    - AMPopTip
+    - AMWaveTransition
+    - BAFluidView
+    - BubbleTransition
+    - CVCalendar
+    - FBSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - pop
+    - Quick
+    - Realm
+    - RealmSwift
+    - Reveal-SDK
+    - UICountingLabel
+
 SPEC CHECKSUMS:
   AHKActionSheet: f0b312b5c689f72924d231c39dae140ecd5c1d46
   AMPopTip: 0eba2f6fe939ca06f1ba5c5db1f0d0d10f4a758a
@@ -61,4 +79,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: dcfe721514b02ede29cf1bcac966ad46f6b3135c
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

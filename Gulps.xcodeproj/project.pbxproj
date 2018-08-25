@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04A25CC003619ECD3665587B /* Pods_Gulps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826C81EBAB7F5F01AACA02FD /* Pods_Gulps.framework */; };
+		36D590C12131DF7E00D5296F /* GulpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D590C02131DF7E00D5296F /* GulpsUITests.swift */; };
 		650DCE651AF3CD4100E12764 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DCE641AF3CD4100E12764 /* Constants.swift */; };
 		650DCE661AF3CD4100E12764 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DCE641AF3CD4100E12764 /* Constants.swift */; };
 		650DCE671AF3CD4100E12764 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DCE641AF3CD4100E12764 /* Constants.swift */; };
@@ -81,6 +82,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		36D590C32131DF7E00D5296F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F44C131AF24B440093A3E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F44C1A1AF24B440093A3E9;
+			remoteInfo = Gulps;
+		};
 		6530397E1BDF6D8A00263D77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 65F44C131AF24B440093A3E9 /* Project object */;
@@ -165,6 +173,9 @@
 		2AB916D61E82B36600301C45 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Interface.strings; sourceTree = "<group>"; };
 		2AB916D71E82B36600301C45 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2AB916D81E82B36600301C45 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36D590BE2131DF7E00D5296F /* GulpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GulpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D590C02131DF7E00D5296F /* GulpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulpsUITests.swift; sourceTree = "<group>"; };
+		36D590C22131DF7E00D5296F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D6006F52042B35600F17BD4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		4D6006F62042B35600F17BD4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4D6006F72042B35600F17BD4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Onboarding.strings; sourceTree = "<group>"; };
@@ -249,6 +260,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		36D590BB2131DF7E00D5296F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		654764B11AF267D100C68C2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,6 +310,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36D590BF2131DF7E00D5296F /* GulpsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36D590C02131DF7E00D5296F /* GulpsUITests.swift */,
+				36D590C22131DF7E00D5296F /* Info.plist */,
+			);
+			path = GulpsUITests;
+			sourceTree = "<group>";
+		};
 		6537A80E1AF24CAB00EC16E9 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,6 +442,7 @@
 				65F44C5B1AF24B8A0093A3E9 /* Gulps WatchKit Extension */,
 				65F44C6D1AF24B8A0093A3E9 /* Gulps WatchKit App */,
 				654764B51AF267D100C68C2A /* GulpsTests */,
+				36D590BF2131DF7E00D5296F /* GulpsUITests */,
 				65F44C451AF24B770093A3E9 /* Frameworks */,
 				65F44C1C1AF24B440093A3E9 /* Products */,
 				F244A5079F43F4362F0AE494 /* Pods */,
@@ -431,6 +459,7 @@
 				65F44C5A1AF24B8A0093A3E9 /* Gulps WatchKit Extension.appex */,
 				65F44C691AF24B8A0093A3E9 /* Gulps WatchKit App.app */,
 				654764B41AF267D100C68C2A /* GulpsTests.xctest */,
+				36D590BE2131DF7E00D5296F /* GulpsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -550,6 +579,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		36D590BD2131DF7E00D5296F /* GulpsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D590C72131DF7E00D5296F /* Build configuration list for PBXNativeTarget "GulpsUITests" */;
+			buildPhases = (
+				36D590BA2131DF7E00D5296F /* Sources */,
+				36D590BB2131DF7E00D5296F /* Frameworks */,
+				36D590BC2131DF7E00D5296F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D590C42131DF7E00D5296F /* PBXTargetDependency */,
+			);
+			name = GulpsUITests;
+			productName = GulpsUITests;
+			productReference = 36D590BE2131DF7E00D5296F /* GulpsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		654764B31AF267D100C68C2A /* GulpsTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 654764BE1AF267D100C68C2A /* Build configuration list for PBXNativeTarget "GulpsTests" */;
@@ -559,7 +606,6 @@
 				654764B11AF267D100C68C2A /* Frameworks */,
 				654764B21AF267D100C68C2A /* Resources */,
 				69F087CA9215AF692CD9E9F4 /* [CP] Embed Pods Frameworks */,
-				2A630B3392596839B5F9534D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -583,7 +629,6 @@
 				65AADD131AFBAD7B0039EE4C /* Embed Frameworks */,
 				653039851BDF6D8B00263D77 /* Embed Watch Content */,
 				8F040251DC4DA7A3FE2612B1 /* [CP] Embed Pods Frameworks */,
-				B85C1218C23E3CF27C21A7C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -604,7 +649,6 @@
 				65F44C401AF24B770093A3E9 /* Sources */,
 				65F44C411AF24B770093A3E9 /* Frameworks */,
 				65F44C421AF24B770093A3E9 /* Resources */,
-				743B96E775AA283E843B807F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -656,10 +700,15 @@
 		65F44C131AF24B440093A3E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Fancy Pixel";
 				TargetAttributes = {
+					36D590BD2131DF7E00D5296F = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65F44C1A1AF24B440093A3E9;
+					};
 					654764B31AF267D100C68C2A = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = H72GR44F4M;
@@ -731,11 +780,19 @@
 				65F44C431AF24B770093A3E9 /* GulpsToday */,
 				65F44C591AF24B8A0093A3E9 /* Gulps WatchKit Extension */,
 				654764B31AF267D100C68C2A /* GulpsTests */,
+				36D590BD2131DF7E00D5296F /* GulpsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		36D590BC2131DF7E00D5296F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		654764B21AF267D100C68C2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -791,21 +848,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A630B3392596839B5F9534D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GulpsTests/Pods-GulpsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6933A05350F7D8F44F7B5238 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -866,21 +908,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GulpsTests/Pods-GulpsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		743B96E775AA283E843B807F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GulpsToday/Pods-GulpsToday-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8F040251DC4DA7A3FE2612B1 /* [CP] Embed Pods Frameworks */ = {
@@ -957,24 +984,17 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B85C1218C23E3CF27C21A7C7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gulps/Pods-Gulps-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		36D590BA2131DF7E00D5296F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D590C12131DF7E00D5296F /* GulpsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		654764B01AF267D100C68C2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1052,6 +1072,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		36D590C42131DF7E00D5296F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F44C1A1AF24B440093A3E9 /* Gulps */;
+			targetProxy = 36D590C32131DF7E00D5296F /* PBXContainerItemProxy */;
+		};
 		6530397F1BDF6D8A00263D77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 65F44C591AF24B8A0093A3E9 /* Gulps WatchKit Extension */;
@@ -1143,6 +1168,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		36D590C52131DF7E00D5296F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GulpsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gulps.GulpsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gulps;
+			};
+			name = Debug;
+		};
+		36D590C62131DF7E00D5296F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GulpsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gulps.GulpsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gulps;
+			};
+			name = Release;
+		};
 		654764BC1AF267D100C68C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8B4C7511CC6AFD599BF0ECB /* Pods-GulpsTests.debug.xcconfig */;
@@ -1514,6 +1591,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		36D590C72131DF7E00D5296F /* Build configuration list for PBXNativeTarget "GulpsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D590C52131DF7E00D5296F /* Debug */,
+				36D590C62131DF7E00D5296F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		654764BE1AF267D100C68C2A /* Build configuration list for PBXNativeTarget "GulpsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

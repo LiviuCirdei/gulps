@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		04A25CC003619ECD3665587B /* Pods_Gulps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826C81EBAB7F5F01AACA02FD /* Pods_Gulps.framework */; };
 		36D590C12131DF7E00D5296F /* GulpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D590C02131DF7E00D5296F /* GulpsUITests.swift */; };
+		362CD49021514ED10085C5D5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CD48F21514ED10085C5D5 /* Home.swift */; };
+		362CD492215150D10085C5D5 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CD491215150D10085C5D5 /* Preferences.swift */; };
+		362CD494215566380085C5D5 /* WaitUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CD493215566380085C5D5 /* WaitUtil.swift */; };
+		362CD4962156CAAF0085C5D5 /* Expectations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CD4952156CAAF0085C5D5 /* Expectations.swift */; };
+		362CD49821579AA90085C5D5 /* DrinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CD49721579AA90085C5D5 /* DrinkTests.swift */; };
+		36D590C12131DF7E00D5296F /* SetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D590C02131DF7E00D5296F /* SetupTests.swift */; };
+		36D590CB2131E2A200D5296F /* TestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D590CA2131E2A200D5296F /* TestBase.swift */; };
+		36D590CD2131E4A100D5296F /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D590CC2131E4A100D5296F /* SetUp.swift */; };
+		36D590CF2131E4C600D5296F /* ScreenBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D590CE2131E4C600D5296F /* ScreenBase.swift */; };
+		36D590D32131EECB00D5296F /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D590D22131EECB00D5296F /* Screens.swift */; };
+		36F7AA7C213709D10054C2A6 /* AccessibilityLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7AA7B213709D10054C2A6 /* AccessibilityLabels.swift */; };
+		36F7AA7E213715940054C2A6 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7AA7D213715940054C2A6 /* Enums.swift */; };
+		36F7AA83213BD4EE0054C2A6 /* XCUIElementExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7AA82213BD4EE0054C2A6 /* XCUIElementExtension.swift */; };
 		650DCE651AF3CD4100E12764 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DCE641AF3CD4100E12764 /* Constants.swift */; };
 		650DCE661AF3CD4100E12764 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DCE641AF3CD4100E12764 /* Constants.swift */; };
 		650DCE671AF3CD4100E12764 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DCE641AF3CD4100E12764 /* Constants.swift */; };
@@ -176,6 +189,21 @@
 		36D590BE2131DF7E00D5296F /* GulpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GulpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D590C02131DF7E00D5296F /* GulpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulpsUITests.swift; sourceTree = "<group>"; };
 		36D590C22131DF7E00D5296F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362CD48F21514ED10085C5D5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		362CD491215150D10085C5D5 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		362CD493215566380085C5D5 /* WaitUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitUtil.swift; sourceTree = "<group>"; };
+		362CD4952156CAAF0085C5D5 /* Expectations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectations.swift; sourceTree = "<group>"; };
+		362CD49721579AA90085C5D5 /* DrinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTests.swift; sourceTree = "<group>"; };
+		36D590BE2131DF7E00D5296F /* GulpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GulpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D590C02131DF7E00D5296F /* SetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTests.swift; sourceTree = "<group>"; };
+		36D590C22131DF7E00D5296F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D590CA2131E2A200D5296F /* TestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBase.swift; sourceTree = "<group>"; };
+		36D590CC2131E4A100D5296F /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
+		36D590CE2131E4C600D5296F /* ScreenBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBase.swift; sourceTree = "<group>"; };
+		36D590D22131EECB00D5296F /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		36F7AA7B213709D10054C2A6 /* AccessibilityLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityLabels.swift; sourceTree = "<group>"; };
+		36F7AA7D213715940054C2A6 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		36F7AA82213BD4EE0054C2A6 /* XCUIElementExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIElementExtension.swift; sourceTree = "<group>"; };
 		4D6006F52042B35600F17BD4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		4D6006F62042B35600F17BD4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4D6006F72042B35600F17BD4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Onboarding.strings; sourceTree = "<group>"; };
@@ -315,8 +343,54 @@
 			children = (
 				36D590C02131DF7E00D5296F /* GulpsUITests.swift */,
 				36D590C22131DF7E00D5296F /* Info.plist */,
+				36D590C22131DF7E00D5296F /* Info.plist */,
+				36D590CA2131E2A200D5296F /* TestBase.swift */,
+				36D590D72132A12F00D5296F /* Screens */,
+				36D590D82132A15D00D5296F /* UITests */,
+				36F7AA81213BD4C20054C2A6 /* Utils */,
+				36F7AA7A213709810054C2A6 /* Constants */,
 			);
 			path = GulpsUITests;
+			sourceTree = "<group>";
+		};
+		36D590D72132A12F00D5296F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				36D590CE2131E4C600D5296F /* ScreenBase.swift */,
+				36D590D22131EECB00D5296F /* Screens.swift */,
+				36D590CC2131E4A100D5296F /* SetUp.swift */,
+				362CD48F21514ED10085C5D5 /* Home.swift */,
+				362CD491215150D10085C5D5 /* Preferences.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		36D590D82132A15D00D5296F /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				36D590C02131DF7E00D5296F /* SetupTests.swift */,
+				362CD49721579AA90085C5D5 /* DrinkTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		36F7AA7A213709810054C2A6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				36F7AA7B213709D10054C2A6 /* AccessibilityLabels.swift */,
+				36F7AA7D213715940054C2A6 /* Enums.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		36F7AA81213BD4C20054C2A6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				36F7AA82213BD4EE0054C2A6 /* XCUIElementExtension.swift */,
+				362CD493215566380085C5D5 /* WaitUtil.swift */,
+				362CD4952156CAAF0085C5D5 /* Expectations.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		6537A80E1AF24CAB00EC16E9 /* Storyboards */ = {
@@ -992,6 +1066,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D590C12131DF7E00D5296F /* GulpsUITests.swift in Sources */,
+				362CD49821579AA90085C5D5 /* DrinkTests.swift in Sources */,
+				36D590CB2131E2A200D5296F /* TestBase.swift in Sources */,
+				36F7AA7C213709D10054C2A6 /* AccessibilityLabels.swift in Sources */,
+				362CD492215150D10085C5D5 /* Preferences.swift in Sources */,
+				36F7AA83213BD4EE0054C2A6 /* XCUIElementExtension.swift in Sources */,
+				362CD4962156CAAF0085C5D5 /* Expectations.swift in Sources */,
+				36D590C12131DF7E00D5296F /* SetupTests.swift in Sources */,
+				362CD49021514ED10085C5D5 /* Home.swift in Sources */,
+				36D590D32131EECB00D5296F /* Screens.swift in Sources */,
+				362CD494215566380085C5D5 /* WaitUtil.swift in Sources */,
+				36D590CD2131E4A100D5296F /* SetUp.swift in Sources */,
+				36F7AA7E213715940054C2A6 /* Enums.swift in Sources */,
+				36D590CF2131E4C600D5296F /* ScreenBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
